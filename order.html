@@ -18,14 +18,14 @@
     <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <script src="order.js" async></script>
+    <script src="main.js" async></script>
 
 
 </head>
 
 <body>
     <header>
-        <div class="header">
+        <section class="header">
 
             <nav>
                 <div class="logo">
@@ -51,7 +51,7 @@
 
             </nav>
 
-        </div>
+        </section>
 
     </header>
     <main>
@@ -69,8 +69,8 @@
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
 
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="fruit-card">
@@ -82,8 +82,8 @@
                         <span class="itemPrice">907</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
 
 
@@ -96,8 +96,8 @@
                         <span class="itemPrice">427</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
 
                 </div>
@@ -109,8 +109,8 @@
                         <span class="itemPrice">2434</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="fruit-card">
@@ -121,8 +121,8 @@
                         <span class="itemPrice">600</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="fruit-card">
@@ -133,8 +133,8 @@
                         <span class="itemPrice">350</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
 
 
@@ -153,8 +153,8 @@
                         <span class="itemPrice">800</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="veg-card">
                     <img src="images/onion.png" alt="Onions">
@@ -164,8 +164,8 @@
                         <span class="itemPrice">550</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="veg-card">
                     <img src="images/tomato.png" alt="Tomatos">
@@ -175,8 +175,8 @@
                         <span class="itemPrice">450</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="veg-card">
                     <img src="images/lettuce.png" alt="Lettuce">
@@ -187,7 +187,7 @@
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
                     <label>Kg</label>
-                    <button class="cartBtn">Add to Cart</button>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="veg-card">
                     <img src="images/cucumber.png" alt="Cucumber">
@@ -197,8 +197,8 @@
                         <span class="itemPrice">450</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="veg-card">
                     <img src="images/Broccoli.png" alt="Broccoli">
@@ -208,14 +208,14 @@
                         <span class="itemPrice">850</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
             </div>
 
 
         </section>
-        <section class="dairysection">
+        <section calss="dairy-section">
             <h1 class="sectionh1">Dairy Section</h1>
             <div class="dairy-container">
 
@@ -227,8 +227,8 @@
                         <span class="itemPrice">450</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="dairy-card">
                     <img src="images/cheese.png" alt="Rich life processed cheese">
@@ -238,8 +238,8 @@
                         <span class="itemPrice">1200</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="dairy-card">
@@ -250,8 +250,8 @@
                         <span class="itemPrice">1300</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="dairy-card">
@@ -262,8 +262,8 @@
                         <span class="itemPrice">200</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="dairy-card">
                     <img src="images/freshmilkk.png" alt="Kotmale full cream fresh milk">
@@ -273,8 +273,8 @@
                         <span class="itemPrice">220</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="dairy-card">
@@ -285,8 +285,8 @@
                         <span class="itemPrice">1200</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
             </div>
 
@@ -302,8 +302,8 @@
                         <span class="itemPrice">2116</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="meatAndFish-card">
                     <img src="images/beef.png" alt="Beef">
@@ -313,8 +313,8 @@
                         <span class="itemPrice">2800</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="meatAndFish-card">
@@ -325,8 +325,8 @@
                         <span class="itemPrice">1500</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="meatAndFish-card">
@@ -337,8 +337,8 @@
                         <span class="itemPrice">3000</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="meatAndFish-card">
                     <img src="images/mutton.png" alt="Mutton">
@@ -348,8 +348,8 @@
                         <span class="itemPrice">4500</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="meatAndFish-card">
                     <img src="images/shrimp.png" alt="Shrimp">
@@ -359,8 +359,8 @@
                         <span class="itemPrice">2400</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Kg</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Kg</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
             </div>
@@ -378,19 +378,19 @@
                         <span class="itemPrice">500</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
                 </div>
                 <div class="bakingCooking-card">
                     <img src="images/Vanilla.png" alt="Vanilla Extract">
-                    <p class="itemName">Vanilla Extract</p>
+                    <p class="itemCurrency">Vanilla Extract</p>
                     <p class="itemPriceSection">
                         <span class="itemCurrency">Rs.</span>
                         <span class="itemPrice">1000</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
 
 
@@ -403,33 +403,33 @@
                         <span class="itemPrice">300</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="bakingCooking-card">
                     <img src="images/choc.png" alt="Melting Choclate">
-                    <p class="itemName">Melting Choclate</p>
+                    <p>Melting Choclate</p>
                     <p class="itemPriceSection">
                         <span class="itemCurrency">Rs.</span>
                         <span class="itemPrice">900</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
 
                 </div>
                 <div class="bakingCooking-card">
-                    <img src="images/oliveoil.png" alt="Olive Oil">
+                    <img src="images/olive oil.png" alt="Olive Oil">
                     <p class="itemName">Olive Oil</p>
                     <p class="itemPriceSection">
                         <span class="itemCurrency">Rs.</span>
                         <span class="itemPrice">2400</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
                 <div class="bakingCooking-card">
@@ -440,8 +440,8 @@
                         <span class="itemPrice">200</span>
                     </p>
                     <input type="number" class="numItem" value="0" min="0">
-                    <span>Oty</span>
-                    <button class="cartBtn">Add to Cart</button>
+                    <label>Oty</label>
+                    <button id="addBtn" class="cartBtn" onclick="addToCart(this)">Add to Cart</button>
 
                 </div>
             </div>
@@ -449,40 +449,37 @@
 
         </section>
         <section class="orderCart">
-            <h1 class="sectionh1">Order Cart Section</h1>
+            <h2>Item Cart</h2>
+            <table id="orderTable">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Qty (Kg)</th>
+                        <th>Price (Rs)</th>
+                        <th>Total (Rs)</th>
+                    </tr>
+                </thead>
+                <tbody id="orderBody">
+
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total (Rs)</td>
+                        <td></td>
+                        <td></td>
+                        <td id="totalPrice">0.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+
         </section>
-
-
-        <table id="orderTable">
-            <caption>Item Cart</caption>
-            <thead>
-                <tr>
-                    <th>Item</th>
-                    <th>Qty (Kg)</th>
-                    <th>Price (Rs)</th>
-                    <th>Total (Rs)</th>
-                </tr>
-            </thead>
-            <tbody id="orderBody">
-
-
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3">Total (Rs)</td>
-
-                    <td id="totalPrice">0.00</td>
-                </tr>
-            </tfoot>
-        </table>
-
-
-        <div class="orderBtns">
-            <a href="checkOut.html">Pay Now</a>
-            <button id="addFavourite">Add to Favourite</button>
-            <button id="applyFavourite">Apply Favourites</button>
-            <button id="emptyCart">Empty Cart</button>
-        </div>
+        <section>
+            <button onclick="window.location.href='checkOut.html';">Pay Now</button>
+            <button onclick="addFavourite()">Add to Favorite</button>
+            <button onclick="applyFavourite()">Apply Favorite</button>
+            <button onclick="emptyCart()">Empty Cart</button>
+        </section>
     </main>
 
 
